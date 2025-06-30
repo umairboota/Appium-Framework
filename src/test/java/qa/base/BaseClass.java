@@ -39,7 +39,7 @@ public class BaseClass {
             String appPath = System.getProperty("user.dir") + File.separator + props.getProperty("androidAppLocation");
 
             UiAutomator2Options options = new UiAutomator2Options()
-                    .setDeviceName("Medium Phone")
+                    .setDeviceName("Small Phone")
                     .setApp(appPath);
 
             URL url = new URL(props.getProperty("appiumURL"));
